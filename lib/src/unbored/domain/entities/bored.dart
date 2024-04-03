@@ -9,14 +9,14 @@ class LocalBoredModel extends Equatable {
       required this.link,
       required this.key,
       required this.accessibility,});
-
+  // {"activity":"Make your own LEGO creation","type":"recreational","participants":1,"price":0,"link":"","key":"1129748","accessibility":0.1}
   final String activity;
   final String type;
-  final String participants;
+  final int participants;
   final int price;
   final String link;
   final String key;
-  final String accessibility;
+  final double accessibility;
 
   @override
   List<Object?> get props =>

@@ -1,0 +1,4 @@
+class MediaRes {
+  MediaRes._();
+
+}
